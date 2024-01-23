@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Outcomes</title>
+
+
+
+</head>
+<body>
+
+
+    <head>
+        <meta charset="UTF-8">
+        <title>How to Create responsive Homepage</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">    
+    </head>
+    <body>
+        <header id="home">
+        <div class="wrapper">
+    <ul class="nav-area" >
+    <li><a href="#home">Home</a></li>
+	<li><a href="#about">About</a></li>
+    <li><a href="#pg">Python Games</a></li>
+	<li><a href="#course">course</a></li>
+    <li><a href="#ds">Evidency Gallary</a></li>
+    </ul>
+    </div>
+    <div class="welcome-text">
+            <h1>
+    <span>Python</span>Games</h1>
+        </div>
+    </header>
+    
+<style>
+    * {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://img.freepik.com/premium-photo/top-view-gaming-gear_160097-847.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+}
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover {
+	background: #fff;
+	color: #333;
+}
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	.nav-area {
+		float: none;
+		margin-top: 0;
+	}
+	.nav-area li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.nav-area {
+		text-align: center;
+	}
+	.welcome-text {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.welcome-text h1 {
+		font-size: 30px;
+	}
+}
+
+</style>
+</body>
+
+
+<section class="about-us" id="about">
+    <div class="about">
+      <img src="https://nucleus.fountainheadschools.org/StudentAvatars//FSK2013027-28022023100853.jpg" class="pic">
+      <div class="text">
+        <h2>About</h2>
+        <h5>Arhat Shah</h5>
+          <p>Hello! I am Arhat Shah and I am in grade 9 MLC <br> I am currantly working on learning coding and programing where i have completed 4 courses this year with learning python, HTMl, CSS, javascript, and data science and algorithms.</p>
+        <div class="data">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #fff;
+  color: #000;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #4070f4;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+  </style>
+
+
+
+<hr>
+	<!-- ---------------- -->
+
+
+    <section class="services" style="background-color: white;" id="pg">
+        <div class="s-heading">
+        <h1 style="color: #000;">Python<font>  </font>Games</h1>
+
+        </div>
+        <div class="s-box-container">
+        <div class="s-box" style="background-color: #fff; color: #000;">
+        <div class="bar"></div>
+        <img alt="1" src="https://construct-static.com/uploads/91398/3eb4ea3c-8c6c-449a-88ea-f2c638250d59/r/900/scr1.jpg" style="height: 50%;" />
+        <h1>Snake Game</h1>
+        <a class="s-btn" href="snake_game.html">Go To Game</a>
+        </div>
+
+
+
+
+        <div class="s-box" style="background-color: #fff; color: #000;">
+        <div class="bar"></div>
+        <img alt="2" src="https://play-lh.googleusercontent.com/44uC2fp4fiz9rmM_M9mTT1JKjjic0AT4hllA2_K9z7h5tnXRqDsshCl_4FOJmk34Hoo" style="height: 50%;"/>
+        <h1>Tic Tac Toe Game</h1>
+        <a class="s-btn" href="tic_tac_toe.html">Go To Game</a>
+        </div>
+
+
+
+        <div class="s-box" style="background-color: #fff; color: #000;">
+        <div class="bar"></div>
+        <img alt="3" src="data:image/jpeg;base64,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" style="height: 50%;"/>
+        <h1>HangMan Game</h1>
+        <a class="s-btn" href="hangman.html">Go To Game</a>
+        </div>
+        </div>
+        </section>
+
+<hr>
+
+		<section class="services" style="background-color: white;" id="pg" >
+			<div class="s-heading">
+			<h1 style="color: #000;">Courses<font>  That I  </font>Completed</h1>
+	
+			</div>
+			<div class="s-box-container">
+			<div class="s-box" >
+			<div class="bar"></div>
+			<img alt="1" src="Screenshot (170).png" style="height: 50%;" />
+			<h1>CS50 P</h1>
+			<p>In this course I learned the basics of programing with python</p>
+			</div>
+	
+	
+			<div class="s-box">
+			<div class="bar"></div>
+			<img alt="2" src="Screenshot (169).png" style="height: 50%;"/>
+			<h1>PY4E</h1>
+			<p>In this course I learned the basic and the logic of programing python</p>
+			</div>
+
+
+			<div class="s-box" style="background-color: white;">
+				<div class="bar"></div>
+				<img alt="2" src="Screenshot (172).png" style="height: 50%;"/>
+				<h1>DSA with python and LEETCODE</h1>
+				<p>In this course I am learning about data science and algorithms with python and LEETCODE(way to level up your coding skills)
+				</p>
+				</div>
+	
+	
+	
+			<div class="s-box" style="background-color: white;">
+			<div class="bar"></div>
+			<img alt="3" src="Screenshot (171).png" style="height: 50%;"/>
+			<h1>CS50 AI</h1>
+			<p>In this course I learned about how to integrate AI with python.</p>
+			</div>
+			</div>
+			</section>
+
+		
+
+        <style>
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+	font-family: calibri;
+}
+a{
+	text-decoration:none;
+}
+.services{
+	width:100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.s-heading{
+	text-align:center;
+}
+.s-heading h1{
+	color:#576975;
+	font-size: 3rem;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0px;
+}
+.s-heading p{
+	color: rgba(87,105,117,0.60);
+	font-size: 1rem;
+	margin: 5px;
+	text-align: center;
+}
+.s-box-container{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.s-box{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	width:300px;
+	padding: 20px 25px;
+	height: 400px;
+	box-sizing: border-box;
+	margin: 30px;
+	position: relative;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
+	transition: all ease 0.3s;
+}
+.s-box img{
+	height: 75px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
+	transition: all ease 0.3s;
+}
+.s-box h1{
+	color:#576975;
+	letter-spacing: 1px;
+	font-size: 1.5rem;
+	margin-bottom: 8px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
+	transition: all ease 0.3s;
+	
+}
+.s-box p{
+	color: rgba(87,105,117,0.90);
+	text-align: center;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
+	transition: all ease 0.3s;
+}
+.s-btn{
+	width: 140px;
+	height: 40px;
+	border-radius: 20px;
+	border:1px solid rgba(74,144,226,0.50);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#576975;
+	margin-top:10px; 
+}
+.bar{
+	width: 100px;
+	height: 6px;
+	position: absolute;
+	left: 50%;
+	top: 0%;
+	transform: translateX(-50%);
+	background-color:#4a90e2; 
+	border-radius: 0px 0px 10px 10px;
+	display: none;
+	animation: bar 0.5s;
+}
+.s-box:hover{
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
+	transition: all ease 0.3s;
+}
+.s-btn:hover{
+	background-color:#4a90e2;
+	border: 1px solid #4a90e2;
+	color:#FFFFFF;
+	transition: all ease 0.3s;
+}
+.s-box:hover .bar{
+	display: block;
+}
+@keyframes bar{
+	0%{
+		width:0px;
+	}
+	100%{
+		width:100px;
+	}
+}
+@media(max-width:1050px){
+	.s-box-container{
+		flex-wrap: wrap;
+		
+	}	
+	.services{
+		height: auto;
+	}
+	.s-heading{
+		margin: 15px;
+	}
+	.s-box{
+		flex-grow: 1;
+	}
+	
+}   
+        </style>
+
+
+
+
+<style>
+    * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper {
+	display: flex;
+	flex-wrap: flex;
+}
+.box-area {
+	width: 350px;
+	margin: 25px;
+	padding: 40px;
+	background-color: #f5f5f5;
+	transition: all 0.6s ease-in-out;
+}
+.box-area .icon-area {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.icon-area i {
+	font-size: 70px;
+	color: #262626;
+}
+.box-area h6 {
+	margin-bottom: 10px;
+	color: #262626;
+	font-size: 50px;
+	font-family: bebas neue;
+}
+.box-area:hover {
+	background-color: #161619;
+	box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+.box-area:hover i {
+	color: #fff;
+}
+.box-area:hover h6 {
+	color: #fff;
+}
+.box-area:hover p {
+	color: #fff;
+}
+</style>
+
+
+<h1 id="ds">Evidence Gallary</h1>
+
+	<section class="photo-grid-container">
+		<div class="photo-grid-item">
+		  <img src="Screenshot (163).png" alt="" />
+		</div>
+		<div class="photo-grid-item">
+		  <img src="Screenshot (161).png" alt="" />
+		</div>
+		<div class="photo-grid-item">
+		  <img src="Screenshot (164).png" alt="" />
+		</div>
+		<div class="photo-grid-item">
+		  <img src="Screenshot (153).png" alt="" />
+		</div>
+		<div class="photo-grid-item">
+		  <img src="Screenshot (156).png" alt="" />
+		</div>
+		<div class="photo-grid-item">
+		  <img src="Screenshot (162).png" alt="" />
+		</div>
+		<div class="photo-grid-item">
+		  <img src="Screenshot (160).png" alt="" />
+		</div>
+		<div class="photo-grid-item">
+		  <img src="Screenshot (157).png" alt="" />
+		</div>
+		<div class="photo-grid-item">
+			<img src="Screenshot (155).png" alt="" />
+		</div>
+
+		<div class="photo-grid-item">
+			<img src="Screenshot (157).png" alt="" />
+		</div>
+		<div class="photo-grid-item">
+			<img src="Screenshot (158).png" alt="" />
+		</div>
+		<div class="photo-grid-item">
+			<img src="Screenshot (154).png" alt="" />
+		</div>
+
+
+
+	  </section>
+
+	  <style>
+		body {
+  background: #111;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.photo-grid-container {
+  column-count: 5;
+  column-width: 300px;
+}
+.photo-grid-item {
+  margin: 0 auto 15px;
+  max-width: 400px;
+  width: 100%;
+}
+	  </style>
+
